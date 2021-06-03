@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="#" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- Page CSS -->
+    <link rel="stylesheet" href="styles/styles.css" />
+    <!-- Pagination CSS -->
+    <link rel="stylesheet" href="styles/paginate.css" />
+    <title>News API Aggregator</title>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <p class="nav-title">Samachaar</p>
+        <span class="material-icons outlined theme-toggle">dark_mode</span>
+      </nav>
+    </header>
+    <form class="search-section">
+      <input
+        type="text"
+        id="search"
+        name="keyword"
+        placeholder="Type and press enter to search"
+      />
+      <!-- <input type="submit" value="Search" /> -->
+    </form>
+    <div class="output-section">
+      <h2 class="title">Headlines</h2>
+      <div class="loader"></div>
+      <div class="message" style="display: none">
+        No result found. Try again!
+      </div>
+      <ul id="news-articles"></ul>
+    </div>
+    <!-- <div id="app" class="container">
+      <ul class="page">
+        <li class="page__btn">
+          <span class="material-icons">chevron_left</span>
+        </li>
+        <li class="page__numbers">1</li>
+        <li class="page__numbers">2</li>
+        <li class="page__numbers">3</li>
+        <li class="page__numbers">4</li>
+        <li class="page__numbers">5</li>
+        <li class="page__numbers">6</li>
+        <li class="page__btn">
+          <span class="material-icons">chevron_right</span>
+        </li>
+      </ul>
+    </div> -->
+    <script src="./js/index.js"></script>
+  </body>
+</html>
